@@ -1,0 +1,23 @@
+body
+{
+	margin: 0;
+}
+
+div
+{
+	height: 100vh;
+	background: url(img/jeep.png) no-repeat,url(img/automobile.png) no-repeat,	
+	url(img/racing.png) no-repeat, url(img/rally.png) no-repeat,
+	url(img/ambulance.png) no-repeat, url(img/armored-vehicle.png) no-repeat,
+	url(img/road.png) repeat;
+	background-size: auto 15%;
+	background-position: top 19% left 5%, top 31% left 5%, top 40% left 5%,
+	 top 55% left 5%, top 35% left -160%, top 71% left 5%, top 0 left 0;
+	 transition: background-position 10s ease;
+}
+
+div:hover
+{
+	background-position: top 19% left 75%, top 31% left 90%, top 40% left 96%,
+	 top 55% left 59%, top 55% left 280%, top 71% left 65%, top 0 left 2300%;
+}
